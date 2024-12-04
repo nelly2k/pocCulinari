@@ -13,9 +13,15 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Amazon.Lambda.Core" Version="2.5.0" />
+    <PackageReference Include="Amazon.Lambda.S3Events" Version="3.1.0" />
     <PackageReference Include="Amazon.Lambda.Serialization.SystemTextJson" Version="2.4.4" />
     <PackageReference Include="AWS.Lambda.Powertools.Logging" Version="1.6.2" />
     <PackageReference Include="AWS.Lambda.Powertools.Metrics" Version="1.7.1" />
     <PackageReference Include="AWS.Lambda.Powertools.Tracing" Version="1.6.0" />
+    <PackageReference Include="AWSSDK.Bedrock" Version="3.7.409.16" />
+    <PackageReference Include="AWSSDK.BedrockRuntime" Version="3.7.408.12" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.403.8" />
+    <PackageReference Include="AWSSDK.Lambda" Version="3.7.411.1" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.408.1" />
   </ItemGroup>
 </Project>
